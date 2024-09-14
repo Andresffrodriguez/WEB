@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.4">
+    <config>
+        <recursos>RECURSOS</recursos>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>000000</corfondo>
+        <corbanda>0A38F5</corbanda>
+        <cornavega>0A38F5</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>C0C0C0</cortexto>
+        <titulo>Introducción al álgebra con yoda</titulo>
+        <subtitulo>Expresiones algebraicas</subtitulo>
+        <autor>Andrés Rodriguez</autor>
+        <logo>starwars.jpg</logo>
+        <imaxefondo posx="-52" posy="52" trans="100">1366_2000.jpg</imaxefondo>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+         <sonido nivel="100" modo="1" >Voicy_Star_Wars_-_Cantina_Band_.mp3</sonido>
+        <correcto son="Voicy_Star_Wars_Main_Theme_(Full).mp3" modo="1" >CORRECTO</correcto>
+        <incorrecto son="Voicy_Chewbacca_Roar.mp3" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>2</tipo>
+              <imaxe posx="0" posy="-12">star-wars-the-bad-batch_2560x1440_xtrafondos.com.jpg</imaxe>
+              <texto posx="112" posy="94" ancho="346" largo="68"><![CDATA[
+<p align="left">
+<font color="#080000" face="Arial" size="12">Bienvenidos a su pagina de introducción al álgebra con el maestro YODA<br>
+</font></p>
+]]></texto>
+              <cfondo>FFFFFF</cfondo>
+              <ctexto>000000</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="2" >
+              <tipo>28</tipo>
+              <boton texto="VIDEO INTRODUCCIÓN">3</boton>
+              <boton texto="ROMPECABEZAS">4</boton>
+              <boton texto="COMPLETA LOS NOMBRES">5</boton>
+              <boton texto="SOPA DE LETRAS">6</boton>
+              <boton texto="HALLA LA PALABRA">7</boton>
+        </paxina>
+        <paxina id="3" >
+              <tipo>2</tipo>
+              <texto posx="61" posy="29" ancho="499" largo="312"><![CDATA[<font size="12"><iframe width="560" height="315" src="https://www.youtube.com/embed/_6uyQISZvBc?si=Z0fg4iMmt-HPQcoD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></font>]]></texto>
+              <cfondo>000000</cfondo>
+              <ctexto>C0C0C0</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="4" >
+              <tipo>3</tipo>
+              <imaxe>c619c702-c6e5-4ef0-9f8a-d9f2beed0e38.png</imaxe>
+              <imfondo  trans="100">the-mandalorian-star-wars-science-fiction-bounty-hunter-hd-wallpaper-preview.jpg</imfondo>
+              <filas>4</filas>
+              <columnas>3</columnas>
+              <reixa>1</reixa>
+            <forma>1</forma>
+        </paxina>
+        <paxina id="5" >
+              <tipo>11</tipo>
+              <cabeceira>ESCRIBE EL NOMBRE DEL CASO DE FACTORIZACIÓN</cabeceira>
+              <modo>1</modo>
+              <cousa nome="diferencia de cuadrados">diferencia.jpg</cousa>
+              <cousa nome="binomio al cuadrado">Sin_t_itulo.png</cousa>
+              <cousa nome="factor comun">caso.png</cousa>
+        </paxina>
+        <paxina id="6" >
+              <tipo>4</tipo>
+              <modo>1</modo>
+              <sopa enun="Expresión con un solo termino">Monomio</sopa>
+              <sopa enun="Expresión con 2 terminos">Binomio</sopa>
+              <sopa enun="Expresión con 3 terminos">Trinomio</sopa>
+              <sopa enun="Expresión con más de tres terminos">Polinomio</sopa>
+              <enunciado>1</enunciado>
+              <colorea>1</colorea>
+              <cadro>1</cadro>
+        </paxina>
+        <paxina id="7" >
+              <tipo>19</tipo>
+              <imaxe>factorizacion-polinomios-1-1.jpg</imaxe>
+              <texto><![CDATA[para factorizar el trinomio de la forma x^2+bx+c  se buscan dos numeros que sumados den el termino lineal y multiplicados el termino....]]></texto>
+              <resp texto="">constante</resp>
+              <modo>0</modo>
+              <forma>1</forma>
+        </paxina>
+    </libro>
+</lim>
